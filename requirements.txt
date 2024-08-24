@@ -9,6 +9,12 @@ ipykernel
 utils
 python-dotenv
 
+# multi-agent frameworks
+
+crewai
+llama-index
+
+
 # Data Analysis libraries:
 
 numpy
