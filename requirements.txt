@@ -5,14 +5,10 @@ icecream
 lux
 python-dateutil
 pip
-ipykernel
-utils
-python-dotenv
+#ipykernel
+#utils
+#python-dotenv
 
-# multi-agent frameworks
-
-crewai
-llama-index
 
 
 # Data Analysis libraries:
@@ -21,9 +17,12 @@ numpy
 pandas
 scikit-learn
 scipy
-statsmodels
+#statsmodels
 patsy
 
+# multi-agent frameworks
+crewai
+#llama-index
 
 # Data visualization libraries:
 matplotlib

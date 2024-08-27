@@ -5,13 +5,16 @@
 
 
 ### Summary
-This repository provides the code for a local environment for AI-driven development.
+This repository provides the code for a local environment for AI-driven development. It includes code for doing AI development both using an IDE (vscode), or a jupyter notebook.
 
 It provides a local environment setup (MacOS only) that can be 
 
 - used with OpenAI's APIs ([link]([link](notebooks/notebook-local-OSS.ipynb))), 
 - opensource LLMs hosted on the laptop ([link](notebooks/notebook-local-OSS.ipynb)), and
 - a small scrum team (using multi-agent framework backed by local LLMS) ([link](notebooks/notebook-crewAI-scrum-team-local-LLMs.ipynb)).
+
+
+In addition, I'll be adding tools for 
 
 ### steps to set up the jupyter notebooks locally in a virtual environment:
 
@@ -44,5 +47,5 @@ It provides a local environment setup (MacOS only) that can be
 
 ### write-up todo
 
- (mention others from the GPT research)
-
+- (mention others from the GPT research)
+- (future): containerizing MAF/code execution in container but inferencing on mac: https://www.youtube.com/watch?v=6OxqiEeCvMI
