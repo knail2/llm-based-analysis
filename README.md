@@ -18,34 +18,15 @@ In addition, I'll be adding tools for
 
 ### steps to set up the jupyter notebooks locally in a virtual environment:
 
-- install [python](https://www.python.org/downloads/)
-- clone this repo : 
-	- `git clone git@github.com:knail2/llm-based-analysis.git` 
-- go into the directory: 
-	- `cd llm-based-analysis/`
-- initiate a python virtual environment:
-	- `python -m venv venv`
-- activate the virtual environment:
-	- `. venv/bin/activate`
-	- prompt should show (venv) ...
-- install the required python libraries
-	- `pip install -r requirements.txt`
-	- *Note: the requirements.txt has a lot of frozen module versions for nbextensions to work*
-- (optional) set up jupyter extensions:
-	- `jupyter contrib nbextension install --user`
-	- dark mode:
-		- `jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T`
-	- (or reset dark mode:)
-		- `jt -r`
+git clone git@github.com:knail2/llm-based-analysis.git
+cd llm-based-analysis/
+python -m venv venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+pip install --upgrade 'jupyter-server<2.0.0' # horked library called tornado breaks notebook, so downgrade jupyter
+jupyter contrib nbextension install --user  #set up jupyter extensions
 	- the article is [here](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18)
 	- the documentation for the extensions [here](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
-- run the notebooks:
-	- `cd notebook # to save the notebooks here`
-	- `jupyter notebook` (note: `jupyter lab` is also an option)
-
-
-
-### write-up todo
-
-- (mention others from the GPT research)
-- (future): containerizing MAF/code execution in container but inferencing on mac: https://www.youtube.com/watch?v=6OxqiEeCvMI
+jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T # optional, dark mode
+jt -r # optional, remove dark mode
+jupyter notebook # run notebook
