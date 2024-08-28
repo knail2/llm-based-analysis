@@ -18,15 +18,15 @@ In addition, I'll be adding tools for
 
 ### steps to set up the jupyter notebooks locally in a virtual environment:
 
-git clone git@github.com:knail2/llm-based-analysis.git
-cd llm-based-analysis/
-python -m venv venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-pip install --upgrade 'jupyter-server<2.0.0' # horked library called tornado breaks notebook, so downgrade jupyter
-jupyter contrib nbextension install --user  #set up jupyter extensions
+- git clone git@github.com:knail2/llm-based-analysis.git
+- cd llm-based-analysis/
+- python -m venv venv
+- . ./venv/bin/activate
+- pip install -r requirements.txt
+- pip install --upgrade 'jupyter-server<2.0.0' # horked library called tornado breaks notebook, so downgrade jupyter
+- jupyter contrib nbextension install --user  #set up jupyter extensions
 	- the article is [here](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18)
 	- the documentation for the extensions [here](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
-jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T # optional, dark mode
-jt -r # optional, remove dark mode
-jupyter notebook # run notebook
+- jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T # optional, dark mode
+- jt -r # optional, remove dark mode
+- jupyter notebook # run notebook
