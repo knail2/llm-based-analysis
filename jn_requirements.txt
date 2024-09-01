@@ -1,0 +1,46 @@
+# this is my original requirements file that I used for running jupyter notebook
+# i downgraded the notebook version to make nbextensions work. but i'm noticing i'm missing out on a lot
+# of the newer features on jupyterlab, so i'm archiving this and locally creating a new venv
+# i have archived the older venv into nb_venv but its in .gitignore so you won't see it.
+
+# Core:
+#rubberband
+yapf
+icecream
+lux
+python-dateutil
+utils
+python-dotenv
+poetry
+
+
+
+# Data Analysis libraries:
+
+numpy
+pandas
+scikit-learn
+scipy
+#statsmodels
+patsy
+
+# multi-agent frameworks
+crewai
+crewai[tools]
+#llama-index
+
+# Data visualization libraries:
+matplotlib
+seaborn
+plotly
+
+# Notebook related:
+jupyterlab_tabnine
+jupyter<2.0.0
+notebook==6.4.12
+traitlets==5.9.0
+jupyterthemes
+ipykernel
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+jupyterlab

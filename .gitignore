@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+nb_venv/
 .vscode/
 team01/.env
 requirements_old.txt
