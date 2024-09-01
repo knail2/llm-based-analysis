@@ -5,9 +5,9 @@ icecream
 lux
 python-dateutil
 pip
-#ipykernel
-#utils
-#python-dotenv
+utils
+python-dotenv
+poetry
 
 
 
@@ -22,6 +22,7 @@ patsy
 
 # multi-agent frameworks
 crewai
+crewai[tools]
 #llama-index
 
 # Data visualization libraries:
@@ -37,3 +38,4 @@ jupyterthemes
 ipykernel
 jupyter_contrib_nbextensions
 jupyter_nbextensions_configurator
+jupyterlab

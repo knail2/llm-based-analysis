@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+.vscode/
+team01/.env
 requirements_old.txt
 .tableau_token
 .tableau_token_sandbox
