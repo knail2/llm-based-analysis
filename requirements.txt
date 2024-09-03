@@ -4,12 +4,9 @@ yapf
 icecream
 lux
 python-dateutil
-pip
 utils
 python-dotenv
 poetry
-
-
 
 # Data Analysis libraries:
 
@@ -31,11 +28,17 @@ seaborn
 plotly
 
 # Notebook related:
-jupyter<2.0.0
-notebook==6.4.12
-traitlets==5.9.0
-jupyterthemes
-ipykernel
-jupyter_contrib_nbextensions
-jupyter_nbextensions_configurator
 jupyterlab
+#jupyterlab_tabnine
+jupyter-ai
+jupyter-resource-usage
+lckr_jupyterlab_variableinspector
+jupyter_scheduler
+jupyterlab-lsp
+genv
+jupyterlab_vim
+jupyterlab-git
+stickyland
+
+# Internet tools
+duckduckgo-search
