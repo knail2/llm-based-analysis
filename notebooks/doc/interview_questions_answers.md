@@ -23,7 +23,7 @@ Over time, I became more confident and learned to view criticism as an opportuni
 **Answer:**
 "My desire to pursue a career in medicine stems from a deep-rooted passion for helping others and a fascination with the human body and how it functions. Growing up, I often found myself drawn to science, and I excelled in subjects like biology and chemistry. My interest in medicine intensified when I volunteered at a hospital during high school, where I observed how healthcare professionals made a profound difference in patients’ lives.
 
-As a shy individual, I have always appreciated the power of listening and empathy. I believe that these qualities are essential in medicine, as they allow for a deeper understanding of patients’ needs. I want to combine my analytical skills and compassionate nature to provide holistic care. My goal is to contribute to a patient-centered approach in healthcare, where every individual feels heard and respected."
+As an introvert, I have always appreciated the power of listening and empathy. I believe that these qualities are essential in medicine, as they allow for a deeper understanding of patients’ needs. I want to combine my analytical skills and compassionate nature to provide holistic care. My goal is to contribute to a patient-centered approach in healthcare, where every individual feels heard and respected."
 
 ## Question 4: How do you envision contributing to a diverse team in medical school?
 
@@ -33,6 +33,3 @@ As a shy individual, I have always appreciated the power of listening and empath
 Additionally, I have experience working with diverse groups through community service projects, where I collaborated with individuals from various backgrounds. I learned that effective communication is key to understanding differing viewpoints. In medical school, I would initiate study groups that respect each member’s learning style, ensuring everyone feels comfortable sharing their insights.
 
 My goal is to create a supportive atmosphere that values empathy and collaboration, which are crucial in the medical field. I believe that by embracing our differences, we can better prepare ourselves to serve a diverse patient population."
-
-## Conclusion
-These questions and answers reflect the interviewee's intelligence and experiences while also emphasizing their strengths as a shy and introverted individual.
